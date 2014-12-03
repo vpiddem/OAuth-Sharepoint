@@ -20,8 +20,8 @@ import java.io.IOException;
 
 public class TwilioExample extends HttpServlet {
 
-    public static String ACCOUNT_SID="AC860734b2164731449720efaac10e5f4f";
-    public static String AUTH_TOKEN="704987b6244a607352b5f4d9116e23c6";  
+    public static String ACCOUNT_SID="YOUR_ACCOUNT_SID";
+    public static String AUTH_TOKEN="YOUR_AUTH_TOKEN";  
     
     @Override
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException{
